@@ -23,7 +23,7 @@ window.onload = function () {
     }
 
     document.getElementById('button-create').onclick = function () {
-        var twitProfilePicAPI = "https://unavatar.now.sh/twitter/";
+        var tgProfilePicAPI = "https://unavatar.now.sh/telegram/";
 
         var userInput = document.getElementById('twitter-handle-input').value;
         var screenName = userInput.substr(userInput.lastIndexOf("/") + 1);
@@ -34,7 +34,7 @@ window.onload = function () {
             return;
         }
 
-        var apiUrl = twitProfilePicAPI + screenName;
+        var apiUrl = tgProfilePicAPI + screenName;
 
         var mainImage = document.getElementById('gurafy_image');
         var mainCanvas = document.getElementById('gurafy_canvas');
