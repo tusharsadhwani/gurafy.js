@@ -2,6 +2,6 @@
 
 ---
 
-[Gurafy](https://twitter.com/gawrgura) your Twitter profile pic
+[Gurafy](https://twitter.com/gawrgura) your Telegram profile pic
 
-**Demo:** https://denchisoft.github.io/gurafy.js/
+**Demo:** https://tusharsadhwani.github.io/gurafy.js/
