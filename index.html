@@ -1,1 +1,38 @@
-test
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="utf-8"/>
+      <meta name="viewport" content="width=460" />
+      <title>Gurafy your profile pic</title>
+      <link rel="stylesheet" type="text/css" href="css/bubbly_button.css">
+      <link rel="stylesheet" type="text/css" href="css/style.css">
+      <link href='http://fonts.googleapis.com/css?family=Cookie' rel='stylesheet' type='text/css'>
+      <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet">
+      <script src="js/shake.js"></script>
+      <script src="js/gurafy_img.js"></script>
+      <script src="js/gurafy.js"></script>
+   </head>
+   <body>
+      <div id="content">
+         <form id="main-form">
+            <h2 class="vert-move">gurafy<span class="js_text">.js</span></h2>
+            <canvas id="gurafy_canvas" class="mid-image" style="display:none;"></canvas>
+            <img id="gurafy_image" class="image-shadow shake mid-image" src="img/twitter.png">
+            <br /><br />
+            <input type="text" id="twitter-handle-input" class="Input-text" placeholder="Your Twitter handle">
+            <br />
+            <div id="buttons">
+               <button class="bubbly-button" type="button" id="button-create">Gurafy</button> &nbsp;	
+               <button class="bubbly-button" type="button" id="button-download">Download</button>
+            </div>
+            <div class="twitter_div">
+               <a href="https://twitter.com/DenchiSoft" target="_blank">
+                  <img class="twitter" src="img/tw_birb.png">
+                  <h3>@denchisoft</h3>
+               </a>
+            </div>
+         </form>
+      </div>
+   </body>
+</html>
+
