@@ -25,7 +25,7 @@ window.onload = function () {
     document.getElementById('button-create').onclick = function () {
         var tgProfilePicAPI = "https://unavatar.now.sh/telegram/";
 
-        var userInput = document.getElementById('twitter-handle-input').value;
+        var userInput = document.getElementById('telegram-handle-input').value;
         var screenName = userInput.substr(userInput.lastIndexOf("/") + 1);
 
         screenName = screenName.trim().replace(/^@/, '');
